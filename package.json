@@ -1,0 +1,44 @@
+{
+  "name": "shippit-js-client",
+  "version": "1.0.0",
+  "description": "Shippit JS Client",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "watch 'npm run build' src",
+    "build": "babel src -d build",
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enriquesalceda/Shippit-js-client.git"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "keywords": [
+    "shippit",
+    "carrier",
+    "courier",
+    "label",
+    "quote",
+    "booking",
+    "tracking",
+    "e-commerce",
+    "delivery"
+  ],
+  "author": "Quique Salceda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enriquesalceda/Shippit-js-client/issues"
+  },
+  "homepage": "https://github.com/enriquesalceda/Shippit-js-client#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "jest": "^24.9.0",
+    "watch": "^1.0.2"
+  }
+}
